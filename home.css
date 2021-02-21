@@ -1,0 +1,47 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+#main {
+  background-color: #d6d6d6;
+}
+header {
+  text-align: center;
+  padding: 40px;
+  display: block;
+  margin: 20px;
+}
+#img-div {
+  background-color: white;
+  margin: 20px;
+}
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  padding: 15px;
+}
+#img-caption {
+  display: block;
+  padding: 0 0 10px 0;
+  text-align: center;
+}
+#tribute-info {
+  text-align: center;
+}
+#tribute-info h2 {
+  padding: 25px;
+}
+#tribute-info p {
+  max-width: 60%;
+  margin: 15px auto;
+}
+#more-info {
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+}
+@media (max-width: 700px) #img-div {
+  width: auto;
+}
